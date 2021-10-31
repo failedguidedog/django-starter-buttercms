@@ -5,6 +5,12 @@ create your free trial account on ButterCMS.
 
 [![Built with Cookiecutter Django](https://img.shields.io/badge/built%20with-Cookiecutter%20Django-ff69b4.svg?logo=cookiecutter)](https://github.com/pydanny/cookiecutter-django/)
 
+## Deploy for free
+
+First, clone this repository.
+
+Then click [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 ## Installation
 
 First prepare a virtual environment
