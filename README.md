@@ -9,7 +9,14 @@ create your free trial account on ButterCMS.
 
 First, clone this repository.
 
-Then click [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+Then click one of the following: 
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+[![Open in Cloud Shell][shell_img]][shell_link]
+
+[shell_img]: http://gstatic.com/cloudssh/images/open-btn.png
+[shell_link]: https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/failedguidedog/django-starter-buttercms/tree/deploy-with-gcp&page=editor&open_in_editor=README.md
 
 ## Installation
 
