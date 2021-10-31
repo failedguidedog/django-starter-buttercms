@@ -23,6 +23,10 @@
             "description": "URL for Django Admin",
             "value": "/admin"
         },
+        "DJANGO_ALLOWED_HOSTS": {
+            "description": "A list of hosts the app is accesible by",
+            "value": ["*.herokuapp.com"]
+        },
         "DATABASE_URL": {
             "description": "The default DB configuration for Django",
             "value": "sqlite:///db.sqlite"
