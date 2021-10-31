@@ -1,0 +1,7 @@
+{
+    "name": "ButterCMS Django Starter Project ",
+    "description": "A simple project showing how to use ButterCMS with Django.",
+    "repository": "https://github.com/failedguidedog/django-starter-buttercms",
+    "logo": "https://django-starter-buttercms.herokuapp.com/static/images/logo/logo.svg",
+    "keywords": ["django", "python", "buttercms"]
+}
