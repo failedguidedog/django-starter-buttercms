@@ -3,5 +3,20 @@
     "description": "A simple project showing how to use ButterCMS with Django.",
     "repository": "https://github.com/failedguidedog/django-starter-buttercms",
     "logo": "https://django-starter-buttercms.herokuapp.com/static/images/logo/logo.svg",
-    "keywords": ["django", "python", "buttercms"]
+    "keywords": ["django", "python", "buttercms"],
+    "image": "heroku/python",
+    "env": {
+        "SECRET_KEY": {
+          "description": "The secret key for the Django application.",
+          "generator": "secret"
+        }
+    },
+    "environments": {
+        "test": {
+            "scripts": {
+            "test-setup": "python manage.py collectstatic --noinput",
+            "test": "python manage.py test"
+            }
+        }
+    }
 }
