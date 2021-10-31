@@ -12,8 +12,16 @@
     ],
     "env": {
         "SECRET_KEY": {
-          "description": "The secret key for the Django application.",
-          "generator": "secret"
+            "description": "The secret key for the Django application.",
+            "generator": "secret"
+        },
+        "DJANGO_SETTINGS_MODULE": {
+            "description": "Path to Django's settings module",
+            "value": "config.settings.production"
+        },
+        "DATABASE_URL": {
+            "description": "The default DB configuration for Django",
+            "value": "sqlite:///db.sqlite"
         }
     },
     "environments": {
